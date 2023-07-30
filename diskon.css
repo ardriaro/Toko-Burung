@@ -1,0 +1,1586 @@
+@font-face {
+    font-family: Poppins-bold;
+    src: url(Poppins_bold/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-regular;
+    src: url(Poppins_bold/Poppins-Regular.ttf);
+}
+
+
+body{
+    max-width: 100%;
+    width: 1280px;
+    background: #fefefe;
+}
+
+.navbar-nav{
+    max-width: 100%;
+    width: 1280px; 
+    height: 36px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #FFF8E7
+}
+
+.navbar-nav .Rectangle1{
+    max-width: 100%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.10);
+    width: 1280px;
+    height: 114px;
+}
+
+.navbar-nav .Rectangle1 .navbar-top a{
+    color: #923800;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.navbar-nav .navbar-top .diskon{
+    left: 21px; 
+    top: 7px; 
+    position: absolute; 
+    text-align: center; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word
+}
+
+.navbar-nav .navbar-top .review{
+    left: 90px; 
+    top: 7px; 
+    position: absolute; 
+    text-align: center; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word
+}
+
+.navbar-nav .navbar-top .kontak{
+    left: 162px; 
+    top: 7px; 
+    position: absolute; 
+    text-align: center; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word
+}
+
+.navbar-nav .navbar-top .lokasi{
+    left: 233px; 
+    top: 7px; 
+    position: absolute; 
+    text-align: center; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word
+}
+
+.navbar-sideRight-notif{
+    max-width: 100%;
+    left: 982px;
+    top: 7px;
+    position: absolute;
+    justify-content: center;
+    align-items: center; 
+    gap: 8px; 
+    display: inline-flex
+}
+
+.navbar-sideRight-notif .notif{
+    text-align: center; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.navbar-sideRight-bantuan{
+    position: relative;
+}
+
+.navbar-sideRight-bantuan .help-circle{
+    width: 21px; 
+    height: 21px; 
+    left: 1100px; 
+    top: 8px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+    max-width: 100%;
+}
+
+.navbar-sideRight-bantuan .bantuan{
+    left: 1132px; 
+    top: 8px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.navbar-logo .Logo{
+    max-width: 100%;
+    width: 168px; 
+    height: 59px;
+    left: 44px; 
+    top: 49px; 
+    position: absolute;
+}
+
+.navbar-logo .Logo .Logo2{
+    max-width: 100%;
+    width: 81.05px; 
+    height: 59px;
+    left: 86.95px;
+    top: 0px; 
+    position: absolute;
+}
+
+.navbar-logo .Logo .Logo1{
+    max-width: 100%;
+    width: 100.95px; 
+    height: 53.87px; 
+    left: 0px; 
+    top: 2.57px; 
+    position: absolute;
+}
+
+.navbar-search{
+    max-width: 100%;
+    width: 369px; 
+    height: 30px; 
+    left: 435px; 
+    top: 64px; 
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 1px solid #B2541A;
+}
+
+.navbar-search .button-search{
+    left: 309.7px; 
+    top: 0px; 
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.navbar-search input{
+    border: none;
+    outline: none;
+}
+
+.navbar-search input[type=text]{
+    max-width: 100%;
+    width: 280px;  
+    height: 14.46px; 
+    left: 31.77px; 
+    top: 7.50px; 
+    position: absolute; 
+    color: #0a0800; 
+    font-size: 15px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 15px; 
+    word-wrap: break-word;
+}
+
+.navbar-belanja{
+    max-width: 100%;
+    width: 203px; 
+    height: 25px; 
+    left: 950px; 
+    top: 64px; 
+    position: absolute;
+}
+
+.navbar-belanja .cart{
+    left: 0px; 
+    top: 1px; 
+    position: absolute;
+}
+
+.navbar-belanja .chat{
+    left: 50px; 
+    top: 1px; 
+    position: absolute;
+}
+
+.navbar-belanja .package{
+    left: 100px; 
+    top: 1px; 
+    position: absolute;
+}
+
+.navbar-belanja .CS{
+    left: 150px;
+    top: 1px;
+    position: absolute;
+}
+
+.navbar-hide{
+    max-width: 100%;
+    width: 276px; 
+    height: 926px; 
+    left: 0px; 
+    top: 114px; 
+    position: absolute;
+}
+
+.navbar-hide .fill{
+    max-width: 100%;
+    width: 276px; 
+    height: 926px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: rgba(255, 248, 231, 0.50);
+}
+
+.navbar-hide .fill .jenis{
+    max-width: 100%;
+    width: 173px;
+    height: 186px; 
+    left: 45px; 
+    top: 74px; 
+    position: absolute;
+}
+
+.navbar-hide .fill .jenis .Jenis{
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 35px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 52.50px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .jenis .rectangle54{
+    max-width: 100%;
+    width: 25px; 
+    height: 25px; 
+    left: 9px; 
+    top: 63px; 
+    position: absolute; 
+    background: #DDDDDD; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-hide .fill .jenis .rectangle55{
+    max-width: 100%;
+    width: 25px; 
+    height: 25px; 
+    left: 9px; 
+    top: 109px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-hide .fill .jenis .rectangle56{
+    max-width: 100%;
+    width: 25px; 
+    height: 25px; 
+    left: 9px; 
+    top: 155px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-hide .fill .jenis .lovebird{
+    left: 44px; 
+    top: 58px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 22px; 
+    font-family: Poppins-regular;
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .jenis .jalak{
+    left: 44px; 
+    top: 104px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 22px; 
+    font-family: Poppins-regular; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .jenis .murai{
+    left: 44px; 
+    top: 150px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 22px; 
+    font-family: Poppins-regular; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .jenis .bi-check{
+    max-width: 100%; 
+    left: 100px; 
+    top: 12px; 
+    position: absolute;
+}
+
+/* Umur */
+.navbar-hide .fill .umur{
+    width: 164px; 
+    height: 186px; 
+    left: 53px; 
+    top: 301px; 
+    position: absolute;
+}
+
+.navbar-hide .fill .umur .Umur{
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 35px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 52.50px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .umur .lovebird1{
+    left: 35px; 
+    top: 58px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 22px; 
+    font-family: Poppins-regular; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .umur .murai1{
+    left: 35px; 
+    top: 150px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 22px; 
+    font-family: Poppins-regular; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .umur .jalak1{
+    left: 35px; 
+    top: 104px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 22px; 
+    font-family: Poppins-regular; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .umur .rectangle57{
+    width: 25px; 
+    height: 25px; 
+    left: 0px; 
+    top: 63px; 
+    position: absolute; 
+    background: #DDDDDD; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-hide .fill .umur .rectangle58{
+    width: 25px; 
+    height: 25px; 
+    left: 0px; 
+    top: 109px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-hide .fill .umur .rectangle59{
+    width: 25px; 
+    height: 25px; 
+    left: 0px; 
+    top: 155px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-hide .fill .umur .bi-check1{ 
+    left: 107px; 
+    top: 12px; 
+    position: absolute; 
+}
+
+/* Warna */
+.navbar-hide .fill .warna{
+    width: 164px; 
+    height: 186px; 
+    left: 53px; 
+    top: 526px; 
+    position: absolute;
+}
+
+.navbar-hide .fill .warna .Warna{
+    left: 3px; 
+    top: 0px; 
+    position: absolute; 
+    color: black; 
+    font-size: 35px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 52.50px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .warna .rectangle60{
+    width: 25px; 
+    height: 25px; 
+    left: 0px; 
+    top: 63px; 
+    position: absolute; 
+    background: #DDDDDD; 
+    border-radius: 5px;
+}
+
+.navbar-hide .fill .warna .rectangle61{
+    width: 25px; 
+    height: 25px; 
+    left: 0px; 
+    top: 109px; 
+    position: absolute; 
+    background: #DDDDDD; 
+    border-radius: 5px;
+}
+
+.navbar-hide .fill .warna .rectangle62{
+    width: 25px; 
+    height: 25px; 
+    left: 0px; 
+    top: 155px; 
+    position: absolute; 
+    background: #DDDDDD; 
+    border-radius: 5px;
+}
+
+.navbar-hide .fill .warna .lovebird2{
+    left: 35px; 
+    top: 58px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 22px; 
+    font-family: Poppins-regular; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .warna .jalak2{
+    left: 35px; 
+    top: 104px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 22px; 
+    font-family: Poppins-regular; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .warna .murai2{
+    left: 35px; 
+    top: 150px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 22px; 
+    font-family: Poppins-regular; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.navbar-hide .fill .warna .bi-check2{ 
+    left: 127px; 
+    top: 12px; 
+    position: absolute; 
+}
+
+/* Panel promo */
+.promo{
+    max-width: 100%;
+    width: 881px; 
+    height: 209px; 
+    left: 340px; 
+    top: 188px; 
+    position: absolute;
+}
+
+.promo .fill2{
+    max-width: 100%;
+    width: 860px; 
+    height: 209px; 
+    left: 2px; 
+    top: 0px; 
+    position: absolute; 
+    background: #ffffff; 
+    border-radius: 30px;
+}
+
+.promo .fill2 .fill2{
+    width: 60px; 
+    height: 209px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #FCF8E8; 
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px;
+}
+
+.promo .fill2 .fill2 .promotext{
+    left: 60px; 
+    top: 31px; 
+    position: absolute; 
+    transform: rotate(90deg); 
+    transform-origin: 0 0; 
+    color: #B2541A; 
+    font-size: 40px; 
+    font-family: Poppins-bold; 
+    font-weight: 700; 
+    line-height: 60px; 
+    word-wrap: break-word;
+}
+
+/* Rekomendasi */
+.panell{
+    width: 48px; 
+    height: 48px; 
+    left: 800px; 
+    top: 519px; 
+    position: absolute;
+}
+
+.panell .panah1{
+    width: 48px; 
+    height: 48px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.14); 
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+.reck{
+    left: 340px; 
+    top: 455px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Poppins-regular; 
+    font-weight: 500; 
+    line-height: 48px; 
+    word-wrap: break-word;
+}
+
+.barang1{
+    width: 250px; 
+    height: 230px; 
+    left: 340px;
+    top: 519px; 
+    position: absolute; 
+}
+
+.barang1 .fill1{
+    width: 250px; 
+    height: 230px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 30px;
+}
+
+.barang1 .fill1 .fill2{
+    width: 250px; 
+    height: 65.93px; 
+    left: 0px; 
+    top: 164.07px; 
+    position: absolute; 
+    background: #FCF8E8; 
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px;
+}
+
+.barang1 .fill1 .fill2 .desc{
+    width: 129.35px; 
+    height: 27.60px; 
+    left: 16px; 
+    top: 10px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.barang1 .fill1 .fill2 .warna1{
+    width: 52.17px; 
+    height: 18.40px; 
+    left: 16px; 
+    top: 35px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang1 .fill1 .fill2 .harga{
+    width: 92px; 
+    height: 18px; 
+    left: 141px; 
+    top: 10px; 
+    position: absolute;
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang1 .fill1 .fill2 .buy{
+    width: 58.70px; 
+    height: 18.40px; 
+    left: 167.91px; 
+    top: 33px; 
+    position: absolute; 
+    background: #81B214; 
+    border-radius: 5px;
+}
+
+.barang1 .fill1 .fill2 .buy .tuku{
+    width: 31.52px; 
+    height: 16.10px; 
+    left: 12px; 
+    top: 0px; 
+    position: absolute;
+    text-align: center; 
+    color: #FCF8E8; 
+    font-size: 13px; 
+    font-family: 'Poppins'; 
+    font-weight: 500; 
+    line-height: 19.50px; 
+    word-wrap: break-word;
+}
+
+.barang2{
+    width: 250px; 
+    height: 230px; 
+    left: 640px;
+    top: 519px; 
+    position: absolute; 
+}
+
+.barang2 .fill1{
+    width: 250px; 
+    height: 230px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 30px;
+}
+
+.barang2 .fill1 .fill2{
+    width: 250px; 
+    height: 65.93px; 
+    left: 0px; 
+    top: 164.07px; 
+    position: absolute; 
+    background: #FCF8E8; 
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+}
+
+.barang2 .fill1 .fill2 .harga{
+    width: 92px; 
+    height: 18px; 
+    left: 141px; 
+    top: 10px; 
+    position: absolute;
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang2 .fill1 .fill2 .warna1{
+    width: 52.17px; 
+    height: 18.40px; 
+    left: 16px; 
+    top: 35px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang2 .fill1 .fill2 .desc{
+    width: 129.35px; 
+    height: 27.60px; 
+    left: 16px; 
+    top: 10px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.barang2 .fill1 .fill2 .buy{
+    width: 58.70px; 
+    height: 18.40px; 
+    left: 167.91px; 
+    top: 33px; 
+    position: absolute; 
+    background: #81B214; 
+    border-radius: 5px;
+}
+
+.barang2 .fill1 .fill2 .buy .tuku{
+    width: 31.52px; 
+    height: 16.10px; 
+    left: 12px; 
+    top: 0px; 
+    position: absolute;
+    text-align: center; 
+    color: #FCF8E8; 
+    font-size: 13px; 
+    font-family: 'Poppins'; 
+    font-weight: 500; 
+    line-height: 19.50px; 
+    word-wrap: break-word;
+}
+
+.barang3{
+    width: 250px; 
+    height: 230px; 
+    left: 640px;
+    top: 779px; 
+    position: absolute; 
+}
+
+.barang3 .fill1{
+    width: 250px; 
+    height: 230px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 30px;
+}
+
+.barang3 .fill1 .fill2{
+    width: 250px; 
+    height: 65.93px; 
+    left: 0px; 
+    top: 164.07px; 
+    position: absolute; 
+    background: #FCF8E8; 
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+}
+
+.barang3 .fill1 .fill2 .harga{
+    width: 92px; 
+    height: 18px; 
+    left: 141px; 
+    top: 10px; 
+    position: absolute;
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang3 .fill1 .fill2 .warna1{
+    width: 52.17px; 
+    height: 18.40px; 
+    left: 16px; 
+    top: 35px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang3 .fill1 .fill2 .desc{
+    width: 129.35px; 
+    height: 27.60px; 
+    left: 16px; 
+    top: 10px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.barang3 .fill1 .fill2 .buy{
+    width: 58.70px; 
+    height: 18.40px; 
+    left: 167.91px; 
+    top: 33px; 
+    position: absolute; 
+    background: #81B214; 
+    border-radius: 5px;
+}
+
+.barang3 .fill1 .fill2 .buy .tuku{
+    width: 31.52px; 
+    height: 16.10px; 
+    left: 12px; 
+    top: 0px; 
+    position: absolute;
+    text-align: center; 
+    color: #FCF8E8; 
+    font-size: 13px; 
+    font-family: 'Poppins'; 
+    font-weight: 500; 
+    line-height: 19.50px; 
+    word-wrap: break-word;
+}
+
+.barang4{
+    width: 250px; 
+    height: 230px; 
+    left: 340px;
+    top: 779px; 
+    position: absolute; 
+}
+
+.barang4 .fill1{
+    width: 250px; 
+    height: 230px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 30px;
+}
+
+.barang4 .fill1 .fill2{
+    width: 250px; 
+    height: 65.93px; 
+    left: 0px; 
+    top: 164.07px; 
+    position: absolute; 
+    background: #FCF8E8; 
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+}
+
+.barang4 .fill1 .fill2 .harga{
+    width: 92px; 
+    height: 18px; 
+    left: 141px; 
+    top: 10px; 
+    position: absolute;
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang4 .fill1 .fill2 .warna1{
+    width: 52.17px; 
+    height: 18.40px; 
+    left: 16px; 
+    top: 35px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang4 .fill1 .fill2 .desc{
+    width: 129.35px; 
+    height: 27.60px; 
+    left: 16px; 
+    top: 10px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.barang4 .fill1 .fill2 .buy{
+    width: 58.70px; 
+    height: 18.40px; 
+    left: 167.91px; 
+    top: 33px; 
+    position: absolute; 
+    background: #81B214; 
+    border-radius: 5px;
+}
+
+.barang4 .fill1 .fill2 .buy .tuku{
+    width: 31.52px; 
+    height: 16.10px; 
+    left: 12px; 
+    top: 0px; 
+    position: absolute;
+    text-align: center; 
+    color: #FCF8E8; 
+    font-size: 13px; 
+    font-family: 'Poppins'; 
+    font-weight: 500; 
+    line-height: 19.50px; 
+    word-wrap: break-word;
+}
+
+.barang5{
+    width: 250px; 
+    height: 230px; 
+    left: 938px;
+    top: 779px; 
+    position: absolute; 
+}
+
+.barang5 .fill1{
+    width: 250px; 
+    height: 230px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 30px;
+}
+
+.barang5 .fill1 .fill2{
+    width: 250px; 
+    height: 65.93px; 
+    left: 0px; 
+    top: 164.07px; 
+    position: absolute; 
+    background: #FCF8E8; 
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+}
+
+.barang5 .fill1 .fill2 .harga{
+    width: 92px; 
+    height: 18px; 
+    left: 141px; 
+    top: 10px; 
+    position: absolute;
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang5 .fill1 .fill2 .warna1{
+    width: 52.17px; 
+    height: 18.40px; 
+    left: 16px; 
+    top: 35px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang5 .fill1 .fill2 .desc{
+    width: 129.35px; 
+    height: 27.60px; 
+    left: 16px; 
+    top: 10px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.barang5 .fill1 .fill2 .buy{
+    width: 58.70px; 
+    height: 18.40px; 
+    left: 167.91px; 
+    top: 33px; 
+    position: absolute; 
+    background: #81B214; 
+    border-radius: 5px;
+}
+
+.barang5 .fill1 .fill2 .buy .tuku{
+    width: 31.52px; 
+    height: 16.10px; 
+    left: 12px; 
+    top: 0px; 
+    position: absolute;
+    text-align: center; 
+    color: #FCF8E8; 
+    font-size: 13px; 
+    font-family: 'Poppins'; 
+    font-weight: 500; 
+    line-height: 19.50px; 
+    word-wrap: break-word;
+}
+
+.barang6{
+    width: 250px; 
+    height: 230px; 
+    left: 938px;
+    top: 519px; 
+    position: absolute; 
+}
+
+.barang6 .fill1{
+    width: 250px; 
+    height: 230px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 30px;
+}
+
+.barang6 .fill1 .fill2{
+    width: 250px; 
+    height: 65.93px; 
+    left: 0px; 
+    top: 164.07px; 
+    position: absolute; 
+    background: #FCF8E8; 
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+}
+
+.barang6 .fill1 .fill2 .harga{
+    width: 92px; 
+    height: 18px; 
+    left: 141px; 
+    top: 10px; 
+    position: absolute;
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang6 .fill1 .fill2 .warna1{
+    width: 52.17px; 
+    height: 18.40px; 
+    left: 16px; 
+    top: 35px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.barang6 .fill1 .fill2 .desc{
+    width: 129.35px; 
+    height: 27.60px; 
+    left: 16px; 
+    top: 10px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.barang6 .fill1 .fill2 .buy{
+    width: 58.70px; 
+    height: 18.40px; 
+    left: 167.91px; 
+    top: 33px; 
+    position: absolute; 
+    background: #81B214; 
+    border-radius: 5px;
+}
+
+.barang6 .fill1 .fill2 .buy .tuku{
+    width: 31.52px; 
+    height: 16.10px; 
+    left: 12px; 
+    top: 0px; 
+    position: absolute;
+    text-align: center; 
+    color: #FCF8E8; 
+    font-size: 13px; 
+    font-family: 'Poppins'; 
+    font-weight: 500; 
+    line-height: 19.50px; 
+    word-wrap: break-word;
+}
+
+.fill1 img{
+    width: 254px; 
+    height: 230px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+    border-radius: 30px;
+}
+
+.footer{
+    max-width: 100%;
+    width: 1280px; 
+    height: 457px; 
+    left: 0px; 
+    top: 1040px; 
+    position: absolute;
+}
+
+.footer .panel{
+    max-width: 100%;
+    width: 1280px; 
+    height: 457px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #F5D7AA;
+}
+
+.footer .panel .kontak{
+    width: 256.56px; 
+    height: 195.65px; 
+    left: 41.50px; 
+    top: 41px; 
+    position: absolute;
+}
+
+.footer .panel .kontak .Kontak{
+    width: 129.88px; 
+    left: 8.30px; 
+    top: 0px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 22px; 
+    font-family: Poppins-regular; 
+    font-weight: 600; 
+    line-height: 33px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .kontak .phone-email{
+    width: 22.39px; 
+    height: 72px; 
+    left: 5px; 
+    top: 68px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: inline-flex;
+}
+
+.footer .panel .kontak .phone-email .phone{
+    width: 24px; 
+    height: 24px; 
+    position: relative;
+}
+
+.footer .panel .kontak .phone-email .email{
+    width: 24px; 
+    height: 24px; 
+    position: relative;
+}
+
+.footer .panel .kontak .text-phonemail{
+    width: 208.96px; 
+    height: 68px; 
+    left: 47.61px; 
+    top: 0px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 30px; 
+    display: inline-flex;
+}
+
+.footer .panel .kontak .text-phonemail .text-phone{
+    width: 187px; 
+    height: 19px;
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .kontak .text-phonemail .text-mail{
+    width: 322px; 
+    height: 19px;
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .kontak .instagram{
+    width: 29.30px; 
+    height: 31.41px; 
+    left: 8.21px; 
+    top: 105px; 
+    position: absolute;
+}
+
+.footer .panel .kontak .WA{
+    width: 29.30px; 
+    height: 31.65px; 
+    left: 56.72px; 
+    top: 105px; 
+    position: absolute;
+}
+
+.footer .panel .kontak .facebook{
+    width: 29.30px; 
+    height: 31.41px; 
+    left: 105.23px; 
+    top: 105px; 
+    position: absolute;
+}
+
+.footer .panel .kategori{
+    width: 134.23px; 
+    height: 185px; 
+    left: 384.33px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.footer .panel .kategori .kategori-1{
+    width: 134.23px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 22px; 
+    font-family: 'Poppins'; 
+    font-weight: 600; 
+    line-height: 33px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .kategori .kategori-2{
+    width: 71.40px; 
+    left: 0px; 
+    top: 65px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .kategori .kategori-3{
+    width: 61.40px; 
+    left: 0px; 
+    top: 98px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .kategori .kategori-4{
+    width: 49.98px; 
+    left: 0px; 
+    top: 131px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .kategori .kategori-5{
+    width: 65.98px; 
+    left: 0px; 
+    top: 164px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .pusat-bantuan{
+    width: 204.27px; 
+    height: 218px; 
+    left: 602.61px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.footer .panel .pusat-bantuan .pusat{
+    width: 204.27px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 22px; 
+    font-family: Poppins-regular; 
+    font-weight: 600; 
+    line-height: 33px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .pusat-bantuan .syarat{
+    width: 166.68px; 
+    left: 0px; 
+    top: 65px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .pusat-bantuan .checkout{
+    width: 83.96px; 
+    left: 0px; 
+    top: 98px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .pusat-bantuan .pembayaran{
+    width: 112.79px; 
+    left: 0px; 
+    top: 131px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .pusat-bantuan .Q{
+    width: 47.62px; 
+    left: 0px; 
+    top: 164px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .Toko-kami{
+    width: 356.34px; 
+    height: 362px; 
+    left: 840.44px; 
+    top: 41px; 
+    position: absolute;
+}
+
+.footer .panel .Toko-kami .Toko{
+    width: 186.52px; 
+    left: 0.38px; 
+    top: 0px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 22px; 
+    font-family: Poppins-regular; 
+    font-weight: 600; 
+    line-height: 33px; 
+    word-wrap: break-word;
+}
+
+iframe{
+    width: 356.34px; 
+    height: 242px; 
+    left: 0px; 
+    top: 44px; 
+    position: absolute; 
+}
+
+.footer .panel .Toko-kami .clock-map{
+    max-width: 100%;
+    width: 22.39px; 
+    height: 64px; 
+    left: 0px; 
+    top: 310px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex;
+}
+
+span{
+    font-family: 'Poppins';
+}
+
+.footer .panel .Toko-kami .map-clock{
+    width: 238.81px; 
+    height: 62px; 
+    left: 30.85px; 
+    top: 310px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 20px; 
+    display: inline-flex;
+}
+
+.footer .panel .Toko-kami .map-clock .map1{
+    width: 339px; 
+    height: 19px;
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins-bold; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer .panel .Toko-kami .map-clock .clock2{
+    width: 285px; 
+    height: 19px;
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins-bold; 
+    font-weight: 400; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}

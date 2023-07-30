@@ -1,0 +1,1263 @@
+@font-face {
+    font-family: Poppins-bold;
+    src: url(Poppins_bold/Poppins-SemiBold.ttf);
+  }
+  
+  @font-face {
+    font-family: Poppins-regular;
+    src: url(Poppins_bold/Poppins-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Poppins-extra;
+    src: url(Poppins_bold/Poppins-ExtraBold.ttf);
+  }
+  
+  @font-face {
+    font-family: Poppins-light;
+    src: url(Poppins_bold/Poppins-Light.ttf);
+  }
+  
+  body{
+    max-width: 100%;
+    width: 1280px;
+    background: #fefefe;
+  }
+  
+  .navbar-nav{
+    max-width: 100%;
+    width: 1280px; 
+    height: 36px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #FFF8E7
+  }
+  
+  .navbar-nav .Rectangle1{
+    max-width: 100%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.10);
+    width: 1280px;
+    height: 114px;
+  }
+  
+  .navbar-nav .Rectangle1 .navbar-top a{
+    color: #923800;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+  }
+  
+  .navbar-nav .navbar-top .diskon{
+    left: 21px; 
+    top: 7px; 
+    position: absolute; 
+    text-align: center; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word
+  }
+  
+  .navbar-nav .navbar-top .review{
+    left: 90px; 
+    top: 7px; 
+    position: absolute; 
+    text-align: center; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word
+  }
+  
+  .navbar-nav .navbar-top .kontak{
+    left: 162px; 
+    top: 7px; 
+    position: absolute; 
+    text-align: center; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word
+  }
+  
+  .navbar-nav .navbar-top .lokasi{
+    left: 233px; 
+    top: 7px; 
+    position: absolute; 
+    text-align: center; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word
+  }
+  
+  .navbar-sideRight-notif{
+    max-width: 100%;
+    left: 982px;
+    top: 7px;
+    position: absolute;
+    justify-content: center;
+    align-items: center; 
+    gap: 8px; 
+    display: inline-flex
+  }
+  
+  .navbar-sideRight-notif .notif{
+    text-align: center; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word;
+    text-decoration: none;
+  }
+  
+  .navbar-sideRight-bantuan{
+    position: relative;
+  }
+  
+  .navbar-sideRight-bantuan .help-circle{
+    width: 21px; 
+    height: 21px; 
+    left: 1100px; 
+    top: 8px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+    max-width: 100%;
+  }
+  
+  .navbar-sideRight-bantuan .bantuan{
+    left: 1132px; 
+    top: 8px; 
+    position: absolute; 
+    color: #923800; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 21px; 
+    word-wrap: break-word;
+    text-decoration: none;
+  }
+  
+  .navbar-logo .Logo{
+    max-width: 100%;
+    width: 168px; 
+    height: 59px;
+    left: 44px; 
+    top: 49px; 
+    position: absolute;
+  }
+  
+  .navbar-logo .Logo .Logo2{
+    max-width: 100%;
+    width: 81.05px; 
+    height: 59px;
+    left: 86.95px;
+    top: 0px; 
+    position: absolute;
+  }
+  
+  .navbar-logo .Logo .Logo1{
+    max-width: 100%;
+    width: 100.95px; 
+    height: 53.87px; 
+    left: 0px; 
+    top: 2.57px; 
+    position: absolute;
+  }
+  
+  .navbar-search{
+    max-width: 100%;
+    width: 369px; 
+    height: 30px; 
+    left: 435px; 
+    top: 64px; 
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 1px solid #B2541A;
+  }
+  
+  .navbar-search .button-search{
+    left: 309.7px; 
+    top: 0px; 
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+  
+  .navbar-search input{
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-search input[type=text]{
+    max-width: 100%;
+    width: 280px;  
+    height: 14.46px; 
+    left: 31.77px; 
+    top: 7.50px; 
+    position: absolute; 
+    color: #0a0800; 
+    font-size: 15px; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 15px; 
+    word-wrap: break-word;
+  }
+  
+  .navbar-belanja{
+    max-width: 100%;
+    width: 203px; 
+    height: 25px; 
+    left: 950px; 
+    top: 64px; 
+    position: absolute;
+  }
+  
+  .navbar-belanja .cart{
+    left: 0px; 
+    top: 1px; 
+    position: absolute;
+  }
+  
+  .navbar-belanja .chat{
+    left: 50px; 
+    top: 1px; 
+    position: absolute;
+  }
+  
+  .navbar-belanja .package{
+    left: 100px; 
+    top: 1px; 
+    position: absolute;
+  }
+  
+  .navbar-belanja .CS{
+    left: 150px;
+    top: 1px;
+    position: absolute;
+  }
+
+.Group114{
+    width: 701px; 
+    height: 821px; 
+    left: 67px; 
+    top: 190px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71{
+    width: 701px; 
+    height: 821px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 13px; 
+    border: 3px #B2541A solid;
+}
+
+.Group114 .Rectangle71 .Group108{
+    width: 93px; 
+    height: 200px; 
+    left: 582px; 
+    top: 477px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71 .Group108 .Group57{ 
+    width: 92px; 
+    height: 40px; 
+    left: 0px; 
+    top: 160px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71 .Group108 .Group57 .Rectangle86{
+    width: 92px; 
+    height: 40px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #ECB390; 
+    border-radius: 15px;
+}
+
+.Group114 .Rectangle71 .Group108 .Group57 .vektor{
+    width: 18.65px; 
+    height: 3.25px; 
+    left: 37px; 
+    top: 18px; 
+    position: absolute; 
+    background: #FCF8E8; 
+    border: 0.50px #FCF8E8 solid;
+}
+
+.Group114 .Rectangle71 .Group108 .Gropu56{
+    width: 92px; 
+    height: 94px; 
+    left: 0.81px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71 .Group108 .Group56 .Rectangle88{
+    width: 92px; 
+    height: 94px; 
+    left: 0px; 
+    top: 53px; 
+    position: absolute; 
+    background: #FCF8E8; 
+    border-radius: 30px; 
+    border: 3px #81B214 solid;
+}
+
+.Group114 .Rectangle71 .Group108 .Group56 .Rectangle88 .satu{
+    width: 10.14px; 
+    left: 40.54px; 
+    top: 23px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Poppins; 
+    font-weight: 700; 
+    line-height: 48px; 
+    word-wrap: break-word;
+}
+
+.Group114 .Rectangle71 .Group108 .Group55{
+    width: 92px; 
+    height: 46px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71 .Group113{
+    width: 651px; 
+    height: 80px; 
+    left: 25px; 
+    top: 28px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71 .Group113 .checkout{
+    width: 210px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Poppins-extra; 
+    font-weight: 700; 
+    line-height: 60px; 
+    word-wrap: break-word;    
+}
+
+.Group114 .Rectangle71 .Group113 .Rectangle79{
+    width: 140px; 
+    height: 54px; 
+    left: 508px; 
+    top: 0px; 
+    position: absolute; 
+    background: #B2541A; 
+    border-radius: 30px;
+}
+
+.Group114 .Rectangle71 .Group113 .Rectangle79 .titik{
+    width: 26.78px; 
+    height: 18px; 
+    left: 90px; 
+    top: 18px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71 .Group113 .Rectangle79 .antar{
+    width: 65px; 
+    left: 10px; 
+    top: 10px; 
+    position: absolute; 
+    color: #FCF8E8; 
+    font-size: 20px; 
+    font-family: Poppins-regular; 
+    font-weight: 700; 
+    line-height: 30px; 
+    word-wrap: break-word;
+}
+
+.strip{
+    width: 651px; 
+    height: 0px; 
+    left: 0px; 
+    top: 80px; 
+    position: absolute; 
+    border: 1.50px #B2541A dotted;
+}
+
+.Group114 .Rectangle71 .Group112{
+    width: 651px; 
+    height: 229px; 
+    left: 25px; 
+    top: 132px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71 .Group112 .AlamatPengiriman{
+    width: 301px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    color: black; 
+    font-size: 30px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    line-height: 45px; 
+    word-wrap: break-word;
+}
+
+.Group114 .Rectangle71 .Group112 .LatifahNurrohmah{
+    width: 305px; 
+    left: 0px; 
+    top: 57px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: 'Poppins'; 
+    font-weight: 600; 
+    line-height: 48px; 
+    word-wrap: break-word;
+}
+
+.Group114 .Rectangle71 .Group112 .JL{
+    width: 651px; 
+    left: 0px; 
+    top: 170px; 
+    position: absolute; 
+    color: #3F3F3F; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group114 .Rectangle71 .Group112 .A62{
+    width: 232px; 
+    left: 0px; 
+    top: 110px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group114 .Rectangle71 .Group112 .AlamatRumah{
+    width: 207px; 
+    left: 326px; 
+    top: 66px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group114 .Rectangle71 .Group111{
+    width: 304px; 
+    height: 60px; 
+    left: 25px; 
+    top: 393px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71 .Group111 .Rectangle81{
+    width: 304px; 
+    height: 50px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #FCF8E8; 
+    border-radius: 20px; 
+    border: 3px #B2541A solid;
+}
+
+.Group114 .Rectangle71 .Group111 .Rectangle81 .Pilih{
+    width: 273px; 
+    left: 15px; 
+    top: 9px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group114 .Rectangle71 .Group110{
+    width: 304px; 
+    height: 60px; 
+    left: 372px; 
+    top: 393px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71 .Group110 .Rectangle82{
+    width: 304px; 
+    height: 50px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #FCF8E8; 
+    border-radius: 20px; 
+    border: 3px #B2541A solid;
+}
+
+.Group114 .Rectangle71 .Group110 .Rectangle82 .edit{
+    width: 273px; 
+    left: 15px; 
+    top: 9px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group114 .Rectangle71 .Group109{
+    width: 533px; 
+    height: 200px; 
+    left: 25px; 
+    top: 477px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71 .Group109 .Rectangle83{
+  width: 158px; 
+  height: 200px; 
+  left: 0px; 
+  top: 17px; 
+  position: absolute; 
+  border-radius: 30px;
+}
+
+.Group114 .Rectangle71 .Group109 .BurungNuriSuperCantikDanAnggun{
+    width: 353px; 
+    left: 180px; 
+    top: 0px; 
+    position: absolute; 
+    color: black; 
+    font-size: 28px; 
+    font-family: Poppins-bold; 
+    font-weight: 600; 
+    line-height: 48px; 
+    word-wrap: break-word;
+}
+
+.Group114 .Rectangle71 .Group109 .Rp3000000{
+    width: 167px; 
+    left: 180px; 
+    top: 65px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins-extra; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group114 .Rectangle71 .Group107{
+    width: 651px; 
+    height: 92px; 
+    left: 25px; 
+    top: 701px; 
+    position: absolute;
+}
+
+.Group114 .Rectangle71 .Group107 .Rectangle84{
+    width: 651px; 
+    height: 92px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 30px; 
+    border: 2px #B2541A solid;
+}
+
+.Group114 .Rectangle71 .Group107 .Rectangle84 .subtotal{
+    width: 115px; 
+    left: 25px; 
+    top: 28px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group114 .Rectangle71 .Group107 .Rectangle84 .Rp3000000{
+    width: 164px; 
+    left: 462px; 
+    top: 28px; 
+    position: absolute; 
+    text-align: right; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins-extra; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group123{
+    width: 413px; 
+    height: 556px; 
+    left: 796px; 
+    top: 190px; 
+    position: absolute;
+}
+
+.Group123 .Group121{
+    width: 378px; 
+    height: 60px; 
+    left: 18px; 
+    top: 476px; 
+    position: absolute;
+}
+
+.Group123 .Group121 .Rectangle91{
+    width: 378px; 
+    height: 60px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #81B214; 
+    border-radius: 15px;
+}
+
+.Group123 .Group121 .Rectangle91 .Beli{
+    width: 125px; 
+    left: 126px; 
+    top: 7px; 
+    position: absolute; 
+    text-align: center; 
+    color: #FCF8E8; 
+    font-size: 30px; 
+    font-family: Poppins-bold; 
+    font-weight: 700; 
+    line-height: 45px; 
+    word-wrap: break-word;
+}
+
+.Group123 .Rectangle89{
+    width: 413px; 
+    height: 556px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 13px; 
+    border: 3px #B2541A solid;
+}
+
+.Group123 .Group120{
+    width: 377.67px; 
+    height: 36px; 
+    left: 18px; 
+    top: 420px; 
+    position: absolute;
+}
+
+.Group123 .Group120 .Group26{
+  width: 100px; 
+  left: 320.90px; 
+  top: 0px; 
+  position: absolute; 
+  color: black; 
+  font-size: 24px; 
+  font-family: Poppins-extra; 
+  font-weight: 500; 
+  line-height: 36px; 
+  word-wrap: break-word;
+}
+
+.Group123 .Group120 .MetodePembayaran{
+    width: 269px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group123 .line6{
+    width: 413px; 
+    height: 0px; 
+    left: 0px; 
+    top: 400px; 
+    position: absolute; 
+    border: 1.50px #B2541A solid;
+}
+
+.Group123 .line8{
+    width: 413px; 
+    height: 0px; 
+    left: 0px; 
+    top: 100px; 
+    position: absolute; 
+    border: 1.50px #B2541A solid;
+}
+
+.Group123 .Group122{
+    width: 378px; 
+    height: 60px; 
+    left: 18px; 
+    top: 20px; 
+    position: absolute;
+}
+
+.Group123 .Group122 .Rectangle90{
+    width: 378px; 
+    height: 60px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    border-radius: 15px; 
+    border: 3px #B2541A solid;
+}
+
+.Group123 .Group122 .Rectangle90 .adakupon{
+    width: 281px; 
+    left: 42px; 
+    top: 14px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins-regular; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group123 .ringkasan{
+    width: 282px; 
+    left: 20px; 
+    top: 120px; 
+    position: absolute; 
+    color: black; 
+    font-size: 28px; 
+    font-family: Poppins-bold; 
+    font-weight: 600; 
+    line-height: 42px; 
+    word-wrap: break-word;
+}
+
+.Group123 .Group118{
+    width: 378px; 
+    height: 36px; 
+    left: 0px; 
+    top: 60px; 
+    position: absolute;
+}
+
+.Group123 .Group118 .total{
+    width: 173px; 
+    left: 20px; 
+    top: 120px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins-regular; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group123 .Rp3000000{
+    width: 160px; 
+    left: 200px; 
+    top: 180px; 
+    position: absolute; 
+    text-align: right; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins-bold; 
+    font-weight: 500; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+
+.Group123 .ongkos{
+  width: 173px; 
+  left: 20px; 
+  top: 230px; 
+  position: absolute; 
+  color: black; 
+  font-size: 24px; 
+  font-family: Poppins-regular; 
+  font-weight: 500; 
+  line-height: 36px; 
+  word-wrap: break-word; 
+}
+
+.Group123 .Rp23{
+  width: 160px; 
+  left: 200px; 
+  top: 230px; 
+  position: absolute; 
+  text-align: right; 
+  color: black; 
+  font-size: 24px; 
+  font-family: Poppins-bold; 
+  font-weight: 500; 
+  line-height: 36px; 
+  word-wrap: break-word; 
+}
+
+.Group123 .pajak{
+  width: 173px; 
+  left: 20px; 
+  top: 280px; 
+  position: absolute; 
+  color: black; 
+  font-size: 24px; 
+  font-family: Poppins-regular; 
+  font-weight: 500; 
+  line-height: 36px; 
+  word-wrap: break-word;
+}
+
+.Group123 .Rp300{
+  width: 160px; 
+  left: 200px; 
+  top: 280px; 
+  position: absolute; 
+  text-align: right; 
+  color: black; 
+  font-size: 24px; 
+  font-family: Poppins-bold; 
+  font-weight: 500; 
+  line-height: 36px; 
+  word-wrap: break-word; 
+}
+
+.Group123 .line7{
+  width: 378px; 
+  height: 0px; 
+  left: 20px; 
+  top: 330px; 
+  position: absolute; 
+  border: 0.50px #B2541A dotted;
+}
+
+.Group123 .Rp33{
+  width: 160px; 
+  left: 200px; 
+  top: 350px; 
+  position: absolute; 
+  text-align: right; 
+  color: black; 
+  font-size: 24px; 
+  font-family: Poppins-bold; 
+  font-weight: 500; 
+  line-height: 36px; 
+  word-wrap: break-word;  
+}
+
+.Group123 .subtotal{
+  width: 173px; 
+  left: 20px; 
+  top: 350px; 
+  position: absolute; 
+  color: black; 
+  font-size: 24px; 
+  font-family: Poppins-regular; 
+  font-weight: 500; 
+  line-height: 36px; 
+  word-wrap: break-word; 
+}
+
+.footer{
+  max-width: 100%;
+  width: 1280px; 
+  height: 457px; 
+  left: 0px; 
+  top: 1030px; 
+  position: absolute;
+}
+
+.footer .panel{
+  max-width: 100%;
+  width: 1280px; 
+  height: 457px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  background: #F5D7AA;
+}
+
+.footer .panel .kontak{
+  width: 256.56px; 
+  height: 195.65px; 
+  left: 41.50px; 
+  top: 41px; 
+  position: absolute;
+}
+
+.footer .panel .kontak .Kontak{
+  width: 129.88px; 
+  left: 8.30px; 
+  top: 0px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 22px; 
+  font-family: Poppins-regular; 
+  font-weight: 600; 
+  line-height: 33px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .kontak .phone-email{
+  width: 22.39px; 
+  height: 72px; 
+  left: 5px; 
+  top: 68px; 
+  position: absolute; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 24px; 
+  display: inline-flex;
+}
+
+.footer .panel .kontak .phone-email .phone{
+  width: 24px; 
+  height: 24px; 
+  position: relative;
+}
+
+.footer .panel .kontak .phone-email .email{
+  width: 24px; 
+  height: 24px; 
+  position: relative;
+}
+
+.footer .panel .kontak .text-phonemail{
+  width: 208.96px; 
+  height: 68px; 
+  left: 47.61px; 
+  top: 0px; 
+  position: absolute; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 30px; 
+  display: inline-flex;
+}
+
+.footer .panel .kontak .text-phonemail .text-phone{
+  width: 230px; 
+  height: 19px;
+  color: #923800; 
+  font-size: 14px; 
+  font-family: Poppins-bold; 
+  font-weight: 500; 
+  line-height: 21px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .kontak .text-phonemail .text-mail{
+  width: 322px; 
+  height: 19px;
+  color: #923800; 
+  font-size: 14px; 
+  font-family: Poppins-bold; 
+  font-weight: 500; 
+  line-height: 21px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .kontak .instagram{
+  width: 29.30px; 
+  height: 31.41px; 
+  left: 8.21px; 
+  top: 105px; 
+  position: absolute;
+}
+
+.footer .panel .kontak .WA{
+  width: 29.30px; 
+  height: 31.65px; 
+  left: 56.72px; 
+  top: 105px; 
+  position: absolute;
+}
+
+.footer .panel .kontak .facebook{
+  width: 29.30px; 
+  height: 31.41px; 
+  left: 105.23px; 
+  top: 105px; 
+  position: absolute;
+}
+
+.footer .panel .kategori{
+  width: 134.23px; 
+  height: 185px; 
+  left: 384.33px; 
+  top: 0px; 
+  position: absolute;
+}
+
+.footer .panel .kategori .kategori-1{
+  width: 134.23px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 22px; 
+  font-family: 'Poppins'; 
+  font-weight: 600; 
+  line-height: 33px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .kategori .kategori-2{
+  width: 71.40px; 
+  left: 0px; 
+  top: 65px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 14px; 
+  font-family: 'Poppins'; 
+  font-weight: 400; 
+  line-height: 21px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .kategori .kategori-3{
+  width: 61.40px; 
+  left: 0px; 
+  top: 98px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 14px; 
+  font-family: 'Poppins'; 
+  font-weight: 400; line-height: 21px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .kategori .kategori-4{
+  width: 49.98px; 
+  left: 0px; 
+  top: 131px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 14px; 
+  font-family: 'Poppins'; 
+  font-weight: 400; 
+  line-height: 21px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .kategori .kategori-5{
+  width: 65.98px; 
+  left: 0px; 
+  top: 164px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 14px; 
+  font-family: 'Poppins'; 
+  font-weight: 400; 
+  line-height: 21px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .pusat-bantuan{
+  width: 204.27px; 
+  height: 218px; 
+  left: 602.61px; 
+  top: 0px; 
+  position: absolute;
+}
+
+.footer .panel .pusat-bantuan .pusat{
+  width: 204.27px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 22px; 
+  font-family: Poppins-regular; 
+  font-weight: 600; 
+  line-height: 33px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .pusat-bantuan .syarat{
+  width: 166.68px; 
+  left: 0px; 
+  top: 65px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 14px; 
+  font-family: 'Poppins'; 
+  font-weight: 400; 
+  line-height: 21px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .pusat-bantuan .checkout{
+  width: 83.96px; 
+  left: 0px; 
+  top: 98px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 14px; 
+  font-family: Poppins; 
+  font-weight: 400; 
+  line-height: 21px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .pusat-bantuan .pembayaran{
+  width: 112.79px; 
+  left: 0px; 
+  top: 131px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 14px; 
+  font-family: Poppins; 
+  font-weight: 400; 
+  line-height: 21px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .pusat-bantuan .Q{
+  width: 47.62px; 
+  left: 0px; 
+  top: 164px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 14px; 
+  font-family: Poppins; 
+  font-weight: 400; 
+  line-height: 21px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .Toko-kami{
+  width: 356.34px; 
+  height: 362px; 
+  left: 840.44px; 
+  top: 41px; 
+  position: absolute;
+}
+
+.footer .panel .Toko-kami .Toko{
+  width: 186.52px; 
+  left: 0.38px; 
+  top: 0px; 
+  position: absolute; 
+  color: #923800; 
+  font-size: 22px; 
+  font-family: Poppins-regular; 
+  font-weight: 600; 
+  line-height: 33px; 
+  word-wrap: break-word;
+}
+
+iframe{
+  width: 356.34px; 
+  height: 242px; 
+  left: 0px; 
+  top: 44px; 
+  position: absolute; 
+}
+
+.footer .panel .Toko-kami .clock-map{
+  max-width: 100%;
+  width: 22.39px; 
+  height: 64px; 
+  left: 0px; 
+  top: 310px; 
+  position: absolute; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex;
+}
+
+span{
+  font-family: 'Poppins';
+}
+
+.footer .panel .Toko-kami .map-clock{
+  width: 238.81px; 
+  height: 62px; 
+  left: 30.85px; 
+  top: 310px; 
+  position: absolute; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 20px; 
+  display: inline-flex;
+}
+
+.footer .panel .Toko-kami .map-clock .map1{
+  width: 339px; 
+  height: 19px;
+  color: #923800; 
+  font-size: 14px; 
+  font-family: Poppins-bold; 
+  font-weight: 400; 
+  line-height: 21px; 
+  word-wrap: break-word;
+}
+
+.footer .panel .Toko-kami .map-clock .clock2{
+  width: 285px; 
+  height: 19px;
+  color: #923800; 
+  font-size: 14px; 
+  font-family: Poppins-bold; 
+  font-weight: 400; 
+  line-height: 21px; 
+  word-wrap: break-word;
+}
